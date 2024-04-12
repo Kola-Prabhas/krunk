@@ -183,13 +183,13 @@ function Footer() {
 				<div
 					className="w-[70px] h-[40px] bg-[#4C82EF] flex items-center justify-center rounded-[10px] cursor-pointer"
 				>
-					<img src='/krunk/vector.png' alt='Arrow Right' />
+					<img src='/krunk/Vector.png' alt='Arrow Right' />
 				</div>
 			</div>
 			<p className="flex items-center gap-2">
 				<span className="text-[#B1B1B1] text-[13px]">Powered by </span>
 				<span className="text-[#7A7F8C] text-[13px] font-semibold cursor-pointer">Krunk.ai </span>
-				<img className="cursor-pointer" src="/krunk/logo.svg" alt="Krunk ai" />
+				<img className="cursor-pointer" src="/krunk/Logo.svg" alt="Krunk ai" />
 			</p>
 		</div>
 	)
