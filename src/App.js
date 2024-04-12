@@ -36,12 +36,12 @@ function App() {
 function Header() {
 	return ( 
 		<div className="w-[340px] h-[80px] bg-[#EFF3FD] mx-auto rounded-t-[20px] flex items-center gap-[10px] px-[20px] py-[10px]">
-			<img src="./chatbot.png" alt="chatbot" />
+			<img src="/chatbot.png" alt="chatbot" />
 			<div className="w-[8px] h-[8px] bg-[#3FE225] rounded-[50%] absolute mt-8 ml-10"></div>
 			<div>
 				<div className='flex items-center space-x-2'>
 					<p className='text-[#4C82EF] font-semibold text-lg'>Timpu</p>
-					<img src='./ticks.png' alt="tick marks" />
+					<img src='/ticks.png' alt="tick marks" />
 				</div>
 				<p className="text-[#4C82EF] font-medium text-[15px]">Chat assistant</p>
 			</div>
@@ -80,7 +80,7 @@ function BagCard() {
 		<div className="px-4 space-y-1 mt-4">
 			<div className="w-[250px] flex flex-col space-y-2 items-center bg-gradient-to-br from-50% from-[#E5EEFF] to-[#FAFCFF] p-[10px] rounded-[20px]">
 				<div className="w-[230px] flex rounded-[10px] px-[10px] py-[10px] space-x-[11px] bg-white">
-					<img src='./bag.png' alt="Bag" />
+					<img src='/bag.png' alt="Bag" />
 
 					<div className="flex flex-col items-center px-[5px] space-y-[7px]">
 						<div className="flex items-center gap-[3.7px]">
@@ -89,7 +89,7 @@ function BagCard() {
 						</div>
 						<div className="flex items-center gap-[10px]">
 							<p className="text-[#949494] text-[12px] ">1123 products</p>
-							<img className="cursor-pointer" src='./chevron-right.svg' alt='Right Arrow' />
+							<img className="cursor-pointer" src='/chevron-right.svg' alt='Right Arrow' />
 						</div>
 					</div>
 				</div>
@@ -119,7 +119,7 @@ function PopularTags() {
 					}
 
 				</div>
-				<img className="cursor-pointer" src='./chevron-right.png' alt="Right Arrow" />
+				<img className="cursor-pointer" src='/chevron-right.png' alt="Right Arrow" />
 			</div>
 
 		</div>
@@ -132,7 +132,7 @@ function Filters() {
 			<div className="flex items-center justify-between">
 				<p className="text-[#949494] text-[13px]">Select filters</p>
 				<div className="flex items-center gap-1 cursor-pointer">
-					<img src='./sliders-horizontal.png' alt='Filters logo' />
+					<img src='/sliders-horizontal.png' alt='Filters logo' />
 					<p className="text-[#666666] text-[13px]">Filter</p>
 				</div>
 			</div>
@@ -145,9 +145,9 @@ function Filters() {
 								{tag}
 								{
 									index === 0 ? (
-										<img className="inline ml-2" src="./cross.svg" alt="cross mark" />
+										<img className="inline ml-2" src="/cross.svg" alt="cross mark" />
 									) : (
-										<img className="inline ml-2" src="./cross.png" alt='cross mark' />
+										<img className="inline ml-2" src="/cross.png" alt='cross mark' />
 									)
 								}								
 							</div>
@@ -173,7 +173,7 @@ function Footer() {
 						placeholder='Type your message'
 					/>
 					<img
-						src='./paperclip.png'
+						src='/paperclip.png'
 						alt="paper clip"
 						className="absolute right-[5px] top-2.5 cursor-pointer"
 					/>
@@ -183,13 +183,13 @@ function Footer() {
 				<div
 					className="w-[70px] h-[40px] bg-[#4C82EF] flex items-center justify-center rounded-[10px] cursor-pointer"
 				>
-					<img src='./vector.png' alt='Arrow Right' />
+					<img src='/vector.png' alt='Arrow Right' />
 				</div>
 			</div>
 			<p className="flex items-center gap-2">
 				<span className="text-[#B1B1B1] text-[13px]">Powered by </span>
 				<span className="text-[#7A7F8C] text-[13px] font-semibold cursor-pointer">Krunk.ai </span>
-				<img className="cursor-pointer" src="./logo.svg" alt="Krunk ai" />
+				<img className="cursor-pointer" src="/logo.svg" alt="Krunk ai" />
 			</p>
 		</div>
 	)
