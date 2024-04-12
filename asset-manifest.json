@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/krunk/static/css/main.66592b67.css",
-    "main.js": "/krunk/static/js/main.767b36e4.js",
+    "main.js": "/krunk/static/js/main.93058a69.js",
     "static/js/453.b323d73b.chunk.js": "/krunk/static/js/453.b323d73b.chunk.js",
     "index.html": "/krunk/index.html",
     "main.66592b67.css.map": "/krunk/static/css/main.66592b67.css.map",
-    "main.767b36e4.js.map": "/krunk/static/js/main.767b36e4.js.map",
+    "main.93058a69.js.map": "/krunk/static/js/main.93058a69.js.map",
     "453.b323d73b.chunk.js.map": "/krunk/static/js/453.b323d73b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.66592b67.css",
-    "static/js/main.767b36e4.js"
+    "static/js/main.93058a69.js"
   ]
 }
