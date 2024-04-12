@@ -1,4 +1,4 @@
-# Images of the App  
+# Images of the App from localhost
 
 ![Image 1](./public/krunk.jpg)
 
